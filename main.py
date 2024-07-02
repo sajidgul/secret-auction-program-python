@@ -9,7 +9,7 @@ def find_highest_bidding(total_bids):
         if bids_amount > highest_bids:
             highest_bids = bids_amount
             winner = bids
-        print(f"The winner is {bids} with bids of ${highest_bids}")
+        print(f"The winner is {bids} with bid of ${highest_bids}")
 
 while not bidding_finished:
     name = input("What is your name? ")
